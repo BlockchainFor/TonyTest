@@ -13,5 +13,5 @@ cp -p -r evosd /usr/local/bin
 cp -p -r evos-cli /usr/local/bin
 rm -rf evos-1.1.1-ubuntu-daemon.tgz
 rm -rf evos-1.1.2-ubuntu-daemon.tgz
-evosd -daemon -reindex
+evosd -daemon -testnet -reindex
 evos-cli --version
