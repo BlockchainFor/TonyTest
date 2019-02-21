@@ -1,0 +1,14 @@
+#!/bin/bash
+
+#Color codes
+RED='\033[0;91m'
+GREEN='\033[1;32m'
+YELLOW='\033[1;33m'
+NC='\033[0m' # No Color
+
+evos-cli stop
+echo -e "${GREEN} Stopped the Evos Server ${NC}"
+sleep 2s
+rm -rf .evos/blocks .evos/chainstate
+echo -e "${GREEN} Removing the current blockchain data... ${NC}"
+sleep 2s
