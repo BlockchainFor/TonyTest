@@ -195,6 +195,7 @@ tar -xvf safeinsure-1.0.0-x86_64-linux-gnu.tar.gz
 sudo chmod -R 755 safeinsure-cli
 sudo chmod -R 755 safeinsured
 rm .safeinsure/mncache.dat .safeinsure/mnpayments.dat .safeinsure/peers.dat
+cd SafeInsure-1.0.0/
 cp -p -r safeinsured /usr/local/bin
 cp -p -r safeinsure-cli /usr/local/bin
 
