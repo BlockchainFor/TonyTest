@@ -262,7 +262,15 @@ externalip=$publicip
 bind=$publicip
 masternodeaddr=$publicip
 masternodeprivkey=$genkey
- 
+addnode=95.179.232.206:16345
+addnode=188.40.173.193:16345
+addnode=139.162.239.231:16345
+addnode=81.2.253.193:16345
+addnode=85.255.1.211:16345
+addnode=149.28.160.81:16345
+addnode=142.93.132.188:16345
+addnode=45.32.149.73:16345
+
 EOF
 
 #Finally, starting daemon with new evos.conf
